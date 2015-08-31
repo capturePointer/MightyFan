@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=FAN1_PWM Pin=Q2-2
+Removed Pin From Net: NetName=FAN2_PWM Pin=Q2-4
+Change Component Footprint: Designator=P1 Old Footprint=2X4 New Footprint=HDR2X4
+Added Pin To Net: NetName=FAN3_PWM Pin=Q2-2
+Added Pin To Net: NetName=FAN4_PWM Pin=Q2-4

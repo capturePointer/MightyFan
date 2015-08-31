@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=FAN4_PWM Pin=P3-1
+Removed Pin From Net: NetName=FAN3_PWM Pin=P3-2
+Removed Pin From Net: NetName=GND Pin=P3-5
+Removed Pin From Net: NetName=GND Pin=P3-6
+Removed Member From Class: ClassName=miniFan Member=P3
+Added Member To Class: ClassName=miniFan Member=Component P2 Header 3X2

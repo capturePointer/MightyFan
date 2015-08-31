@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=FAN2 Pin=D1-A
+Removed Pin From Net: NetName=FAN1 Pin=D2-A
+Removed Pin From Net: NetName=FAN2 Pin=P1-2
+Removed Pin From Net: NetName=FAN1 Pin=P1-4
+Change Component DesignItemId : Designator=P1 Old DesignItemId=Header 2X2 New DesignItemId=Header 4X2
+Change Component Footprint: Designator=P1 Old Footprint=Header-2x2-male New Footprint=HDR2X4
+Change Component Comment : Designator=P1 Old Comment=Header 2X2 New Comment=Header 4X2
+Added Component: Designator=D3(SOD323)
+Added Component: Designator=D4(SOD323)
+Added Component: Designator=LED3(LED-0603-RED)
+Added Component: Designator=LED4(LED-0603-RED)
+Added Component: Designator=P3(Header-3x2-female)
+Added Component: Designator=Q2(SOIC127P600X175-8AN)
+Added Component: Designator=R3(RESC1608X55N)
+Added Component: Designator=R4(RESC1608X55N)
+Added Pin To Net: NetName=FAN1 Pin=D1-A
+Added Pin To Net: NetName=FAN2 Pin=D2-A
+Added Pin To Net: NetName=12V Pin=D3-K
+Added Pin To Net: NetName=12V Pin=D4-K
+Added Pin To Net: NetName=12V Pin=P1-5
+Added Pin To Net: NetName=FAN2 Pin=P1-6
+Added Pin To Net: NetName=12V Pin=P1-7
+Added Pin To Net: NetName=FAN1 Pin=P1-8
+Added Pin To Net: NetName=GND Pin=P3-5
+Added Pin To Net: NetName=GND Pin=P3-6
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=FAN1_PWM Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q2-3
+Added Pin To Net: NetName=FAN2_PWM Pin=Q2-4
+Added Pin To Net: NetName=12V Pin=R3-1
+Added Pin To Net: NetName=12V Pin=R4-1
+Added Pin To Net: NetName=FAN3_PWM Pin=P3-1
+Added Net: Name=FAN3_PWM
+Added Pin To Net: NetName=FAN3 Pin=D3-A
+Added Pin To Net: NetName=FAN3 Pin=LED3-K
+Added Pin To Net: NetName=FAN3 Pin=P1-4
+Added Pin To Net: NetName=FAN3 Pin=Q2-7
+Added Pin To Net: NetName=FAN3 Pin=Q2-8
+Added Net: Name=FAN3
+Added Pin To Net: NetName=FAN4_PWM Pin=P3-2
+Added Net: Name=FAN4_PWM
+Added Pin To Net: NetName=FAN4 Pin=D4-A
+Added Pin To Net: NetName=FAN4 Pin=LED4-K
+Added Pin To Net: NetName=FAN4 Pin=P1-2
+Added Pin To Net: NetName=FAN4 Pin=Q2-5
+Added Pin To Net: NetName=FAN4 Pin=Q2-6
+Added Net: Name=FAN4
+Added Pin To Net: NetName=NetLED3_A Pin=LED3-A
+Added Pin To Net: NetName=NetLED3_A Pin=R3-2
+Added Net: Name=NetLED3_A
+Added Pin To Net: NetName=NetLED4_A Pin=LED4-A
+Added Pin To Net: NetName=NetLED4_A Pin=R4-2
+Added Net: Name=NetLED4_A
+Change Class Name : Old Net Name=tinyFan New Net Name=miniFan
+Added Member To Class: ClassName=miniFan Member=Component D3 DIODE_75V_500mW
+Added Member To Class: ClassName=miniFan Member=Component D4 DIODE_75V_500mW
+Added Member To Class: ClassName=miniFan Member=Component LED3 Red
+Added Member To Class: ClassName=miniFan Member=Component LED4 Red
+Added Member To Class: ClassName=miniFan Member=Component P3 Header 3X2
+Added Member To Class: ClassName=miniFan Member=Component Q2 MOSFET_AO4818B
+Added Member To Class: ClassName=miniFan Member=Component R3 Thick Film
+Added Member To Class: ClassName=miniFan Member=Component R4 Thick Film

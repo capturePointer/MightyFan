@@ -1,0 +1,6 @@
+Added Component: Designator=P3(Header-3x2-female)
+Added Pin To Net: NetName=FAN4_PWM Pin=P3-1
+Added Pin To Net: NetName=FAN3_PWM Pin=P3-2
+Added Pin To Net: NetName=GND Pin=P3-5
+Added Pin To Net: NetName=GND Pin=P3-6
+Added Member To Class: ClassName=miniFan Member=Component P3 Header 3X2

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=JP1-P1
+Removed Pin From Net: NetName=12V Pin=JP1-P2
+Added Component: Designator=J1(2P_PCB_ScrewTerm_90S_3.81MM)
+Added Pin To Net: NetName=12V Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Member To Class: ClassName=miniFan Member=Component J1 Stackable ScrewTerm

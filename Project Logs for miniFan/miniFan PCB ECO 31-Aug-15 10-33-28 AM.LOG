@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=FAN2_PWM Pin=P2-1
+Removed Pin From Net: NetName=FAN1_PWM Pin=P2-2
+Removed Pin From Net: NetName=GND Pin=P2-5
+Removed Pin From Net: NetName=GND Pin=P2-6
+Removed Member From Class: ClassName=miniFan Member=P2
